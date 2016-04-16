@@ -1,6 +1,9 @@
 
 # Created by https://www.gitignore.io/api/node
 
+## Mac OS X ##
+**/*/.DS_Store
+
 ### Node ###
 # Logs
 logs
