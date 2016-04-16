@@ -8,3 +8,10 @@ main {
   background-repeat: repeat;
 }
 
+@media (max-width: 800px) {
+  main {
+    background: rgb(55, 55, 55);
+  }
+
+}
+

@@ -8,9 +8,13 @@ header {
   height: 65px;
 }
 
-header .menu-icon { display: none; }
+header .menu-icon { 
+  display: none; 
+}
 
-header .logo { padding-right: 70px; }
+header .logo { 
+  padding-right: 70px; 
+}
 
 header nav {
   display: flex;
