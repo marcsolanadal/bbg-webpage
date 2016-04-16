@@ -1,0 +1,16 @@
+{
+  "name": "bbg-webpage",
+  "version": "0.0.0",
+  "description": "Webpage for the company Big Bug Games",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marc Solà Nadal",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.12.3",
+    "eslint": "^2.7.0",
+    "gulp": "^3.9.1"
+  }
+}
