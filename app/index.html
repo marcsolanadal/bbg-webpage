@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title></title>
-    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -18,7 +18,7 @@
       <div class="logo">
         <img src="./assets/img/header-logo.png" alt="bbg logo">
       </div>
-      <nav>
+      <nav class="robot-slab-normal">
         <div class="games"><a href="#games">GAMES</a></div>
         <div class="team"><a href="#team">TEAM</a></div>
         <div class="news"><a href="#news">NEWS</a></div>
@@ -35,29 +35,33 @@
     </main>
 
     <footer>
-      <div class="container">
+      <div class="container roboto-normal">
         <div class="container-top">
           <div class="footer-logo">
-            <img src="./assets/img/footer-logo.png" alt="bbg logo">
+            <img src="./assets/img/header-logo.png" alt="bbg logo">
           </div>
           <div class="contact">
-            <p>Contact us on:</p>
-            <p>hello@bigbuggames.com</p>
+            <div class="roboto-large">Contact us on:</div>
+            <a href="#mail" class="roboto-normal purple">hello@bigbuggames.com</a>
           </div>
           <div class="follow">
-            Follow us on:
+            <div class="roboto-large">Follow us on:</div>
             <div class="social">
-              <a href="#twitter"><img src="./assets/img/header-logo-twitter.png" alt="social twiter"></a>
-              <a href="#facebook"><img src="./assets/img/header-logo-facebook.png" alt="social facebook"></a>
-              <a href="#youtube"><img src="./assets/img/header-logo-youtube.png" alt="social youtube"></a>
+              <a href="#twitter"><img src="./assets/img/footer-logo-twitter.png" alt="social twiter"></a>
+              <a href="#facebook"><img src="./assets/img/footer-logo-facebook.png" alt="social facebook"></a>
+              <a href="#youtube"><img src="./assets/img/footer-logo-youtube.png" alt="social youtube"></a>
             </div>
           </div>
         </div>
-        <div class="container-bottom">
+        <div class="container-bottom roboto-small purple"> 
           <p>All rights reserved</p>
           <p>Privacy policy</p>
           <p>Terms & Conditons</p>
-          <p>Created by: Loler & Poper</p>
+          <p class="white">Created by: 
+            <a href="#ion" class="purple">@ionthas</a> 
+            & 
+            <a href="#fer" class="purple">@fer</a>
+          </p>
         </div>
       </div>
     </footer>

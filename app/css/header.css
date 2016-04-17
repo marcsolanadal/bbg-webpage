@@ -29,8 +29,6 @@ header nav .contact { padding-right: 70px; }
 header nav a {
   font-size: 14;
   color: white;
-  text-decoration: none;
-  font-family: 'Roboto Slab', serif;
 }
 
 header .social {

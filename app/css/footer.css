@@ -12,6 +12,7 @@ footer {
 
 .container {
   margin: 5px;
+  width: 80%;
 }
 
 .container-top {
@@ -21,20 +22,60 @@ footer {
   align-items: center;
   justify-content: space-between;
   text-align: center;
+  height: 114px;
+}
+
+.container-top .footer-logo {
+  margin-right: 115px;
+  margin-bottom: 13px;
+}
+.container-top .contact {
+  margin-right: 120px;
+  margin-bottom: 16px;
+}
+.container-top .follow {
+  margin-right: 20px;
 }
 
 .container-bottom {
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  height: 36px;
 }
 
 @media (max-width: 800px) {
-  .logo { margin-right: 0px; }
-  .contact { margin-right: 0px; }
+  .footer-logo { 
+    padding-top: 10px;
+    margin-right: 0; 
+  }
+  .contact { margin-right: 0; }
+
   .container-top {
     flex-direction: column;
+    height: auto;
+    font-size: 10pt;
   }
+  .container-top .footer-logo { margin-right: 0; }
+  .container-top .contact { margin-right: 0; }
+  .container-top .follow { 
+    margin-right: 0;
+    margin-bottom: 20px; 
+  }
+  
   .container-bottom {
     flex-direction: column;
+    height: auto;
+    font-size: 9pt;
   }
+  .container-bottom p {
+    margin: 5px;
+  }
+  .container-bottom p:first-child {
+    margin-top: 20px;
+  }
+  .container-bottom p:last-child {
+    margin-bottom: 20px;
+  }
+
 }
