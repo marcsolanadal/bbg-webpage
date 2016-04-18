@@ -2,6 +2,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  top: 0;
   border-top: 3px solid black;
   background: rgb(38,38,37);
   width: 100%;
@@ -38,6 +40,12 @@ header .social a {
   padding-right: 14px;
 }
 
+header .mobile-menu {
+  height: 40px;
+  width: 100%;
+  background: magenta;
+}
+
 @media (max-width: 800px) {
   header .menu-icon { 
     display: inline; 
@@ -49,6 +57,8 @@ header .social a {
   header .logo { 
     padding-right: 0; 
   }
-  header nav { display: none; }
+  header nav { 
+    display: none; 
+  }
   header .social { display: none; }
 }
