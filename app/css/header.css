@@ -47,18 +47,38 @@ header .mobile-menu {
 }
 
 @media (max-width: 800px) {
+  header { 
+    flex-direction: column;
+    height: auto;
+  }
   header .menu-icon { 
     display: inline; 
     position: fixed;
     left: 10px;
-    top: 25px;
+    top: 22px;
     padding-left: 20px;
   }
   header .logo { 
     padding-right: 0; 
+    padding-top: 10px;
+    height: 55px;
   }
-  header nav { 
-    display: none; 
+  header nav {
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-around;
+    width: 100%;
+    background: #1f1f1f;
   }
+  header nav a {
+    font-size: 17pt;
+    color: white;
+  }
+  header nav .games { padding-right: 0; }
+  header nav .team { padding-right: 0; }
+  header nav .news { padding-right: 0; }
+  header nav .contact { padding-right: 0; }
+
+
   header .social { display: none; }
 }

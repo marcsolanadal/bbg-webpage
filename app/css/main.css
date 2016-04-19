@@ -11,6 +11,7 @@ main {
 @media (max-width: 800px) {
   main {
     background: rgb(55, 55, 55);
+    top: 300px
   }
 
 }
